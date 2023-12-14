@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+
+        }
+
+        body {
+            background: radial-gradient(pink, white, red);
+            background-size: cover;
+            padding: 4px 0px;
+            width: 100%;
+            height: 80%;
+        }
+
+
+        /* 
+        .loginform {
+            background: radial-gradient(pink, white, red);
+            background-size: cover;
+            padding: 4px 0px;
+            width: 100%;
+            height: 80%;
+
+        } */
+
+        .login {
+            border: 2px solid black;
+            padding: 15px;
+            width: 500px;
+            /* height: 80%; */
+            margin: 250px auto;
+        }
+
+        .login h1 {
+            font-size: 20px;
+            text-align: center;
+            padding-bottom: 15px;
+        }
+
+        h1::after {
+            content: "";
+            height: 2px;
+            width: 35px;
+            display: inline-block;
+            margin: 5px 2px;
+            background-color: blue;
+        }
+
+        h1::before {
+            content: "";
+            height: 2px;
+            width: 35px;
+            display: inline-block;
+            margin: 5px 2px;
+            background-color: blue;
+        }
+
+        .login input {
+            margin-left: 39px;
+            border: 1px solid black;
+            border-radius: 5px;
+            height: 25px;
+            width: 180px;
+            outline: none;
+            letter-spacing: 1.5s;
+            padding-left: 5px;
+            margin-right: 15px;
+            font-size: 10px;
+
+
+        }
+
+        .row {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 100px;
+        }
+
+        .login button {
+            height: 30px;
+            width: 100px;
+            border: 1px solid black;
+            border-radius: 5px;
+            margin-left: 90px;
+            background-color: blue;
+            color: white;
+
+        }
+
+        span {
+            padding-left: 5px;
+            font-size: 13px;
+            color: rgb(14, 7, 7);
+        }
+
+        .loginform .login button span {
+            color: white;
+
+        }
+    </style>
+</head>
+
+<body>
+    <section class="loginform">
+        <div class="login">
+            <h1>Login</h1>
+            <form action="">
+                <div class="row">
+                    <input type="text" placeholder="Enter Email"><span class="fa-solid fa-user"></span>
+                </div>
+                <div class="row">
+                    <input type="password" placeholder="Enter Password"><span class="fa-solid fa-key"></span>
+                </div>
+            </form>
+            <div class="row">
+                <button>Login <span class="fa-solid fa-angles-right"></span></button>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

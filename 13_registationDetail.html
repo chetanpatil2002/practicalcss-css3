@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .container {
+        margin: 0px 20px;
+    }
+
+    .padding-p {
+        padding: 20px 0px;
+    }
+
+    .form {
+        background-color: green;
+    }
+
+    .form .regi {
+        border: 1px solid black;
+        height: 610px;
+        width: 440px;
+        margin: 150px auto;
+        padding: 0px 55px;
+        background-color: white;
+        border: 1px solid transparent;
+        border-radius: 2px;
+
+
+
+    }
+
+    .form .regi h1 {
+        padding-top: 20px;
+        text-align: center;
+        padding-bottom: 20px;
+
+    }
+
+    input {
+        height: 30px;
+        width: auto;
+        border: 1px solid black;
+        border-radius: 3px;
+        padding-left: 5px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: 20px;
+
+    }
+
+    select {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: 20px;
+    }
+
+    button {
+        height: 40px;
+        width: 250px;
+        margin-top: 10px;
+        margin-left: 50px;
+        border: 1px solid transparent;
+        border-radius: 5px;
+        color: white;
+        background-color: blue;
+        font-size: 18px;
+    }
+</style>
+
+<body>
+    <div class="form">
+        <div class="container padding-p">
+            <div class="regi">
+                <h1>Registation for Job</h1>
+                <div class="detail">
+                    <table>
+
+                        <form action="">
+                            <div class="row">
+                                <tr>
+                                    <td>First name:</td>
+                                    <td><input type="text" placeholder="Enter First Name"> </td>
+                                </tr>
+                            </div>
+                            <div class="row">
+                                <tr>
+                                    <td>Middle Name:</td>
+                                    <td><input type="text" placeholder="Enter Middle Name"></td>
+                                </tr>
+                            </div>
+                            <div>
+                                <tr class="row">
+                                    <td>Last Name:</td>
+                                    <td><input type="text" placeholder="Enter Last Name"></td>
+                                </tr>
+                            </div>
+                            <div class="row">
+                                <tr>
+                                    <td>address:</td>
+                                    <td><input type="address" placeholder="Enter address"></td>
+                                </tr>
+                            </div>
+                            <div class="row">
+                                <tr>
+                                    <td>Date Of Birth:</td>
+                                    <td><input type="date"></td>
+                                </tr>
+                            </div>
+                            <div class="row">
+                                <tr>
+                                    <td>Gender:</td>
+                                    <td><input type="radio"> Male <input type="radio"> Female</td>
+                                </tr>
+                            </div>
+                            <div class="row">
+                                <tr>
+                                    <td>Experiance:</td>
+                                    <td><select name="" id="">
+                                            <option value="">-select-</option>
+                                            <option value=""> freshar</option>
+                                            <option value="">1 year</option>
+                                        </select></td>
+                                </tr>
+                            </div>
+
+                            <div class="row">
+                                <tr>
+                                    <td>Mobile No: </td>
+                                    <td><input type="number" placeholder="Enter Mobile No"></td>
+                                </tr>
+                            </div>
+                            <div class="row">
+                                <tr>
+                                    <td>Enter Id:</td>
+                                    <td><input type="text" placeholder="Enter Email Id"></td>
+                                </tr>
+                            </div>
+                            <div class="row">
+                                <tr>
+                                    <td>Create password</td>
+                                    <td><input type="password" placeholder=" Create password"></td>
+                                </tr>
+                            </div>
+                            <div class="row">
+                                <tr>
+                                    <td></td>
+                                    <td><input type="checkbox">Show password</td>
+                                </tr>
+                            </div>
+
+                        </form>
+
+                    </table>
+                </div>
+                <div>
+                    <button>Register</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

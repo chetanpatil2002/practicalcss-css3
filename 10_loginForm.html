@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    body {
+        height: 100%;
+        background: rgb(31, 151, 151);
+        padding: 4px 0px;
+        background: cover;
+
+    }
+
+    .container {
+        margin: 0px 350px;
+    }
+
+    .padding-p {
+        padding: 30px;
+    }
+
+    .flex {
+        display: flex;
+
+    }
+
+    .img img {
+        height: 305px;
+        width: 220px;
+        flex: 1;
+        /* border: 1px solid transparent; */
+    }
+
+    .wrt h1 {
+        font-size: 30px;
+        text-align: center;
+
+    }
+
+    .form {
+        height: 305px;
+        width: 220px;
+        border: 1px solid transparent;
+        background-color: white;
+        flex: 1;
+
+    }
+
+    .row {
+        margin: 0px 20px;
+        padding: 7px 0px;
+    }
+
+    .form h1 {
+        font-size: 20px;
+        padding-top: 30px;
+        text-align: center;
+        padding-bottom: 3px;
+        /* text-shadow: 0px -1px 3px; */
+    }
+
+    .form h5 {
+        font-size: 10px;
+        text-align: center;
+        color: grey;
+        padding-bottom: 7px;
+    }
+
+    .form input {
+        height: 25px;
+        width: 160px;
+        margin-left: 20px;
+        border: 1px solid black;
+        border-radius: 20px;
+        padding-left: 8px;
+        outline: none;
+        font-size: 12px;
+        background-color: aliceblue;
+    }
+
+    .form button {
+        height: 25px;
+        width: 160px;
+        margin-left: 20px;
+        border: 1px solid transparent;
+        border-radius: 20px;
+        text-align: center;
+        background-color: blue;
+        color: white;
+    }
+
+    .form .anchor {
+        display: flex;
+        text-align: center;
+        margin-left: 17px;
+    }
+
+    .form p {
+        font-size: 10px;
+        color: grey;
+        text-align: center;
+
+    }
+
+    .form a {
+        font-size: 10px;
+        color: red;
+    }
+</style>
+
+
+<body>
+    <section class="login">
+        <div class="container padding-p">
+            <div class="wrt">
+                <h1>Login In Form</h1>
+            </div>
+            <div class="flex">
+
+                <div class="form">
+                    <h1>Log in</h1>
+                    <h5>To your account</h5>
+                    <form action="">
+                        <div class="row">
+                            <input type="text" placeholder="User Name">
+                        </div>
+                        <div class="row">
+                            <input type="password" placeholder="password">
+                        </div>
+                    </form>
+
+                    <div class="row">
+                        <button>Log in</button>
+                    </div>
+                    <div class="row">
+
+                        <p>Or contect to the social media</p>
+                    </div>
+                    <div class="row">
+                        <div class="anchor">
+                            <p>Don't have an account?</p><a href="">Register</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="img">
+                    <img src="image/ballon img.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
